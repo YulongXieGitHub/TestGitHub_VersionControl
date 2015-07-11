@@ -1,3 +1,6 @@
+This exercise is based on the Youtube video [https://www.youtube.com/watch?v=mYjZtU1-u9Y]
+
+
 [git init]
 [git rm --cached filename]
 [git log]
@@ -15,3 +18,10 @@
 # but [git diff --cached] will show the difference because the differnce in the file in the staging area
 # ---------------------------------------------------------------------------------------------
 
+If [git log] cannot fit the screen once, need to [shift Z Z] to bring back the prompt.
+
+[git log --oneline]
+
+[git commit -a -m 'message']  -a means to put things in staging area.
+
+[git status -s] show the modification in shorthand
